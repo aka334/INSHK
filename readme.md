@@ -87,7 +87,6 @@ hk_mgr.export_results("results.txt")
 - **Insertions**: Count of new flows entering HeavyKeeper
 - **Replacements**: Hash collisions causing fingerprint updates
 - **Active flows**: Flows currently being tracked
-- **Heavy Hitters**: Flows sorted by packet count
 
 ## Data Structures
 
