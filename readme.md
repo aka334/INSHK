@@ -84,23 +84,6 @@ hk_mgr.get_heavy_hitters(threshold=100)
 hk_mgr.export_results("results.txt")
 ```
 
-
-## Understanding the Output
-
-```
-================================================================================
-HeavyKeeper Fingerprint Manager Statistics
-================================================================================
-Total insertions:     847        ← New flows inserted
-Total replacements:   23         ← Flows evicted due to collisions
-Active flows:         824        ← Currently tracked flows
-
-Top Heavy Hitters:
- 1.    523 pkts | 10.0.0.5 → 192.168.1.1 (fp:0x1a2b)
- 2.    412 pkts | 10.0.0.3 → 192.168.1.1 (fp:0x7f3c)
-================================================================================
-```
-
 - **Insertions**: Count of new flows entering HeavyKeeper
 - **Replacements**: Hash collisions causing fingerprint updates
 - **Active flows**: Flows currently being tracked
